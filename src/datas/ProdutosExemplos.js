@@ -6,10 +6,7 @@ const ProdutosExemplo = [
         preco: 130,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/01.jpg",
-            "/assets/02.jpg",
-            "/assets/03.jpg",
-
+            "https://spectrum.ieee.org/media-library/the-python-logo-on-top-of-imagery-representing-dna-sequencing-or-other-data.jpg?id=33364099&width=1200&height=900",
          ],
          promocao: false,
     },
@@ -21,9 +18,7 @@ const ProdutosExemplo = [
         preco: 50,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/04.jpg",
-            "/assets/05.jpg",
-            "/assets/06.jpg",
+            "https://s2-techtudo.glbimg.com/89WluPJgFV1lLimz5kV_w0Ic5mM=/0x0:695x393/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg",
 
          ],
          promocao: true,
@@ -36,9 +31,7 @@ const ProdutosExemplo = [
         preco: 69,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/07.jpg",
-            "/assets/08.jpg",
-            "/assets/09.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
 
          ],
          promocao: false,
@@ -51,9 +44,7 @@ const ProdutosExemplo = [
         preco: 160,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/10.jpg",
-            "/assets/11.jpg",
-            "/assets/12.jpg",
+            "https://www.alura.com.br/artigos/assets/react-conheca-novidades-versao-18-react/react-conheca-novidades-versao-18-react.png",
 
          ],
          promocao: false,
@@ -66,9 +57,7 @@ const ProdutosExemplo = [
         preco: 50,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/13.jpg",
-            "/assets/14.jpg",
-            "/assets/15.jpg",
+            "https://res.cloudinary.com/practicaldev/image/fetch/s--jvDLhx0b--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/cpcr5w0kgl6j94tss7n9.png",
 
          ],
          promocao: true,
@@ -81,9 +70,8 @@ const ProdutosExemplo = [
         preco: 100,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/16.jpg",
-            "/assets/17.jpg",
-            "/assets/18.jpg",
+            "https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/Htmlcss.png",
+
 
          ],
          promocao: false,
@@ -96,10 +84,7 @@ const ProdutosExemplo = [
         preco: 90,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/19.jpg",
-            "/assets/20.jpg",
-            "/assets/21.jpg",
-
+            "https://i1.wp.com/www.luisdev.com.br/wp-content/uploads/2021/03/Desktop-1.png?resize=1536%2C813&ssl=1",
          ],
          promocao: false,
     },
@@ -111,9 +96,7 @@ const ProdutosExemplo = [
         preco: 80,
         descricao: "Belo Produto",
         imagens: [
-            "/assets/22.jpg",
-            "/assets/23.jpg",
-            "/assets/24.jpg",
+            "https://www.experht.com.br/wp-content/uploads/2022/07/i379792-1024x576.jpeg",
 
          ],
          promocao: true,
