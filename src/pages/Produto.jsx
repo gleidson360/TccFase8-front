@@ -1,8 +1,7 @@
 import React from "react"
 import Navegacao from "../components/Navegacao"
 import Exibidor from "../components/Exibidor"
-import ProdutosExemplo from "../datas/ProdutosExemplo"
-import Navegacao from "../components/Navegacao";
+import ProdutosExemplo from "../datas/ProdutosExemplos"
 import { useParams } from "react-router-dom"
 
 export default function Produto() {

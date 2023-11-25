@@ -1,7 +1,7 @@
 import React from "react"
 import Navegacao from "../components/Navegacao"
 import Exibidor from "../components/Exibidor"
-import ProdutosExemplo from "../datas/ProdutosExemplo"
+import ProdutosExemplo from "../datas/ProdutosExemplos"
 
 export default function Promocao() {
     return <>
