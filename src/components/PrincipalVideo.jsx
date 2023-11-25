@@ -22,7 +22,7 @@ const Mensagem = styled.div`
     width: ${ props => props.tamanho };
 `
 
-export default function Principal(props) {
+export default function PrincipalVideo(props) {
     return <Modelo fundo = { props.fundo }>
         <Barra>
             <BarraImagem src="/logo.png" alt="logo" />

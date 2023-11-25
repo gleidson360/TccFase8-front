@@ -14,7 +14,7 @@ export default function Rotas() {
         {/* <Route path="/carrinho" element={ <Carrinho/> }/> */}
         {/* <Route path="/explorar" element={ <Explorar/> }/> */}
         {/* <Route path="/video/:codigo" element={ <Video/> }/>  */}
-        {/* <Route path="/painel" element={ <Painel/> }/>  */}
+        <Route path="/painel" element={ <Painel/> }/> 
       </Routes>
     </BrowserRouter> 
 }
