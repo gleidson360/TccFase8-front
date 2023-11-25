@@ -44,17 +44,5 @@ export default function Principal(props) {
             })
                 
         }
-        <Produto>
-            <ProdutoImagem
-                src="https://picsum.photos/800/800"
-                alt="Foto doProduto"/>
-            
-            <ProdutoDados>
-                <div> Modelo </div>
-                <div> R$ 1.000,00 </div>
-            </ProdutoDados>
-
-        </Produto>
-
     </Modelo>
 }
