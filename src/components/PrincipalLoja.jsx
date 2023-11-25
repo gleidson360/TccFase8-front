@@ -27,7 +27,7 @@ const ProdutoDados = styled.div`
     text-align: center;
 `
 
-export default function Principal(props) {
+export default function PrincipalLoja(props) {
     return <Modelo>
         {
             props.produtos.map(function(produto, indice) {

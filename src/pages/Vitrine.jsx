@@ -1,7 +1,7 @@
 import React from "react";
 import Navegacao from "../components/Navegacao";
-import PrincipalLoja from "../compoents/PrincipalLoja";
-import ProdutosExemplos from "../data/ProdutosExemplos";
+import PrincipalLoja from "../components/PrincipalLoja";
+import ProdutosExemplo from "../datas/ProdutosExemplos";
 
 export default function Vitrine() {
     return <>
@@ -10,5 +10,7 @@ export default function Vitrine() {
             <a href="Carrinho"> Carrinho </a>
             <a href="Promocao"> Promoção </a> 
         </Navegacao>
+
+        <PrincipalLoja produtos={ ProdutosExemplo }/>
     </>
 }
