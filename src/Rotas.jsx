@@ -15,9 +15,9 @@ export default function Rotas() {
         <Route path="/produto/:codigo" element={ <Produto/> }/> 
         <Route path="/promocao" element={ <Promocao/> }/>
         <Route path="/carrinho" element={ <Carrinho/> }/> 
-        {/* <Route path="/explorar" element={ <Explorar/> }/> */}
-        {/* <Route path="/video/:codigo" element={ <Video/> }/>  */}
-        {/* <Route path="/painel" element={ <Painel/> }/> */}
+        <Route path="/explorar" element={ <Explorar/> }/>
+        <Route path="/video/:codigo" element={ <Video/> }/> 
+        <Route path="/painel" element={ <Painel/> }/>
       </Routes>
     </BrowserRouter> 
 }
