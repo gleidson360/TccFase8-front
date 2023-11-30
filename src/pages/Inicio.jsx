@@ -1,8 +1,9 @@
 import React from "react"
+import PrincipalVideo from "../components/PrincipalVideo"
 
 export default function Inicio() {
-
-
-    return <h1>Teste</h1>
   
-  }
+  return <PrincipalVideo fundo="/fundo.jpg" tamanho="480px"> 
+
+  </PrincipalVideo>
+}
