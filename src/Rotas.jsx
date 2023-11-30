@@ -6,6 +6,9 @@ import Produto from "./pages/Produto"
 import Promocao from "./pages/Promocao" 
 
 import Carrinho from "./pages/Carrinho"
+import Explorar from "./pages/Explorar"
+import Video from "./pages/Video" 
+import Painel from "./pages/Painel" 
 
 export default function Rotas() {
     return <BrowserRouter>

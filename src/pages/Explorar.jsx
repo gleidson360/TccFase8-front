@@ -7,7 +7,7 @@ import Obterlinguagens from "../functions/ObterLinguagens"
 
 export default function Explorar() {
     const [ conteudos, definirConteudos ] = useState([])
-    const [ linguagens, definirlinguagens ] = useState([])
+    const [ linguagem, definirlinguagens ] = useState([])
 
     useEffect(function() {
         ObterConteudos()
@@ -22,7 +22,7 @@ export default function Explorar() {
             alert(erro.message)
           })  
 
-        ObterLinguagens()
+        Obterlinguagens()
         .then(function(resposta) {
             if (resposta.status == 200)
               definirlinguagens(resposta.data)
