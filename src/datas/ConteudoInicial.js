@@ -1,12 +1,9 @@
 const ConteudoInicial = {
     capa: "",
-    trilha: "",
+    video: "",
     titulo: "",
-    desctricao: "",
-    genero: "",
-    ano: 0,
-    duracao: 0,
-    faixa: 0
+    descricao: "",
+    linguagem: "",
 }
 
 export default ConteudoInicial

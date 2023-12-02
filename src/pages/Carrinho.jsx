@@ -29,29 +29,31 @@ export default function Carrinho(){
   
   return<>
     <Navegacao titulo="VITRINE">
-    <a href="/"> Início </a>
-    <a href="/promocao"> Promoção </a>
-    <a href="/carrinho"> Carrinho </a>
+      <a href="/"> Início </a>
+      <a href="/promocao"> Promoção </a>
+      <a href="/carrinho"> Carrinho </a>
+      <a href="/explorar"> Grátis </a>
     </Navegacao>
+
     <Janela>
-    <table width="100%">
-      <tbody>
-        {
-          carrinho.map(function(codigo, indice) {
-            for (const produto of ProdutosExemplo) {
-              if (produto.codigo == codigo)
-              return <tr key={ indice }>
-                  <td> { produto.codigo } </td>
-                  <td> { produto.modelo } </td>
-                  <td> R$ { produto.preco }.00 </td>
-              </tr>
-            }
-          })
-        }
-      </tbody>
-    </table>
-      <h1> Total R$ {preco},00 </h1>
-      <button onClick={Pagamento}> Pix </button>
+      <table width="100%">
+        <tbody>
+          {
+            carrinho.map(function(codigo, indice) {
+              for (const produto of ProdutosExemplo) {
+                if (produto.codigo == codigo)
+                return <tr key={ indice }>
+                    <td> { produto.codigo } </td>
+                    <td> { produto.modelo } </td>
+                    <td> R$ { produto.preco }.00 </td>
+                </tr>
+              }
+            })
+          }
+        </tbody>
+      </table>
+        <h1> Total R$ {preco},00 </h1>
+        <button onClick={Pagamento}> Pix </button>
     </Janela>
   </>
 }

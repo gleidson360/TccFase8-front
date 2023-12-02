@@ -6,13 +6,10 @@ import ProdutosExemplo from "../datas/ProdutosExemplos"
 export default function Promocao() {
     return <>
         <Navegacao titulo="VITRINE">
-
             <a href="/"> Início </a>
-
             <a href="/promocao"> Promoção </a>
-
             <a href="/carrinho"> Carrinho </a>
-
+            <a href="/explorar"> Grátis </a>
         </Navegacao>
 
         {

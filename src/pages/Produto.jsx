@@ -9,15 +9,11 @@ export default function Produto() {
     
     return <>
         <Navegacao titulo="VITRINE">
-
             <a href="/"> Início </a>
-
             <a href="/promocao"> Promoção </a>
-
             <a href="/carrinho"> Carrinho </a>
-
+            <a href="/explorar"> Grátis </a>
         </Navegacao>
-
         <Exibidor produto={ ProdutosExemplo.find((produto) => produto.codigo == codigo) }/>
 
     </>

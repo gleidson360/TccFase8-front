@@ -3,8 +3,7 @@ import styled from "styled-components"
 import SalvarCarrinho from "../functions/SalvarCarrinho";
 
 const Modelo = styled.div`
-
-    background: #fff;
+    background: #000;
     display: flex;
     margin: 32px 0;
     overflow: hidden;
@@ -12,15 +11,14 @@ const Modelo = styled.div`
 `
 
 const ModeloImagens = styled.div`
-
     display: flex;
-    overflow-x: scroll;
-    max-width: 480px;
+    // overflow-x: scroll;
+    max-width: 700px;
+`
+const ModeloImg = styled.img`
 
 `
-
 const ModeloDados = styled.div`
-
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -36,36 +34,25 @@ export default function Exibidor(props) {
     <Modelo> 
 
         <ModeloImagens>
-
-            <img 
-
-                src="https://picsum.photos/800/800?random=1" 
-                alt="Foto do Produto" 
-                height={ 450 }/>
-
             <img
-
-                src="https://picsum.photos/800/800?random=2" 
+                src={ props.produto.imagens }
                 alt="Foto do Produto"
-                height={ 450 }/>  
-
-            <img
-
-                src="https://picsum.photos/800/800?random=3"
-                alt="Foto do Produto"
-                height={ 450 }/>
-
+                height={ 400 }
+                width={ 700 }
+                />
         </ModeloImagens>
 
         <ModeloDados>
-            <div> { props.produto.marca } </div>
             <div> { props.produto.modelo }</div>
             <div> R$ { props.produto.preco }.00 </div>
             <div> { props.produto.descricao }  </div>
+
+            <button onClick={ () => SalvarCarrinho(props.produto.codigo) }>
+                Adicionar ao Carrinho
+            </button>
         </ModeloDados>
-        <button onClick={ () => SalvarCarrinho(props.produto.codigo) }>
-        Adicionar ao Carrinho
-        </button>
+        
+        
     </Modelo>
     
     :

@@ -32,11 +32,11 @@ const Conteudo = styled.img`
 export default function Sessao(props) {
     return <Modelo>
 
-    <ModeloTitulo> { props.genero } </ModeloTitulo>
+    <ModeloTitulo> { props.linguagem } </ModeloTitulo>
     <ModeloInterno>
     {
         props.conteudos.map(function(conteudo, indice) {
-            if (conteudo.genero === props.genero)
+            if (conteudo.linguagem === props.linguagem)
               return <a href={ "/video/" + conteudo["_id"] } key={ indice }>
                 <Conteudo src={ conteudo.capa } alt="capa" />
               </a>

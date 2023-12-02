@@ -42,9 +42,15 @@ export default function Explorar() {
 
     return <>
     <Destaque fundo="/fundo.jpg">
-        <Navegacao/>    
-    </Destaque>
-    { linguagem.length > 0 &&
+      <Navegacao titulo="VITRINE">
+              <a href="/"> Início </a>
+              <a href="/promocao"> Promoção </a>
+              <a href="/carrinho"> Carrinho </a>
+              <a href="/explorar"> Grátis </a>
+        </Navegacao> 
+
+
+        { linguagem.length > 0 &&
         linguagem.map(function(linguagem, indice) {
             return <Sessao 
             key={ indice }
@@ -52,6 +58,9 @@ export default function Explorar() {
             conteudos={ conteudos }
         />
         })
-    }
+    } 
+    </Destaque>
+    
+    
     </>
    }

@@ -37,17 +37,15 @@ const Organizador = styled.div`
 
 export default function Reprodutor(props) {
     return <Modelo>
-        <ModeloTrailer src={ props.conteudo.trilha }></ModeloTrailer>
+        <ModeloTrailer src={ props.conteudo.video }></ModeloTrailer>
         <ModeloDados>
         <Titulo> { props.conteudo.titulo } </Titulo>
         <Organizador>
-            <div> { props.conteudo.ano } </div> 
-            <div> { props.conteudo.duracao } min </div>
-            <div> + { props.conteudo.faixa } </div>
+            
         </Organizador>
         <Descricao> { props.conteudo.descricao } </Descricao>
         </ModeloDados>
-        <Reprodutor conteudo={ props.conteudo } />
+
     </Modelo>
   
   }

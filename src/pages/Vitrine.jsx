@@ -9,6 +9,7 @@ export default function Vitrine() {
             <a href="/"> Inicio </a>
             <a href="Carrinho"> Carrinho </a>
             <a href="Promocao"> Promoção </a> 
+            <a href="/explorar"> Grátis </a>
         </Navegacao>
 
         <PrincipalLoja produtos={ ProdutosExemplo }/>
